@@ -6,3 +6,17 @@ body {
   background: #ffffff;
   color: #111111;
 }
+input, button {
+  font: inherit;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+button { cursor: pointer; }
+form { max-width: 100%; }
+@media (max-width: 600px) {
+  form {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+  }
+}
